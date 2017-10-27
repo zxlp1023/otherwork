@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+.float-right-box{
+  width: 250px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-top: -127px;
+  background-color: #191919;
+  z-index: 1000;
+  transition: width 0.3s ease 0s;
+}
+.float-right-box.on{
+  width: 50px;
+}
+.float-right-box .top-list{
+    width: 100%;
+}
+.float-right-box .top-list ul{
+  width: 100%;
+}
+.float-right-box .top-list li{
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #3b3b3b;
+  transition: background 0.3s ease 0s;
+  height: 50px;
+}
+.float-right-box .top-list a{
+  display: block;
+  width: 100%;
+}
+.float-right-box .top-list .ico{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: background 0.3s ease 0s;
+  z-index: 2;
+}
+.float-right-box .top-list .ico1{
+  background: url(../img/ico_58.png) no-repeat center #191919;
+}
+.float-right-box .top-list .ico2{
+  background: url(../img/ico_59.png) no-repeat center #191919;
+}
+.float-right-box .top-list .ico3{
+  background: url(../img/ico_60.png) no-repeat center #191919;
+}
+.float-right-box .top-list .ico4{
+  background: url(../img/ico_61.png) no-repeat center #191919;
+}
+.float-right-box .top-list .ico5{
+  background: url(../img/ico_62.png) no-repeat center #191919;
+}
+.float-right-box .top-list .ico6{
+  background: url(../img/ico_68.png) no-repeat center #191919;
+}
+.float-right-box .top-list .ico7{
+  background: url(../img/ico_69.png) no-repeat center #191919;
+}
+.float-right-box .top-list .stt{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 50px;
+  color: #fff;
+  transition: color 0.3s ease 0s;
+  position: absolute;
+  left: 28px;
+  top: 0;
+  z-index: 1;
+  width: 222px;
+}
+.float-right-box .top-list li:hover .stt{
+  color: #15191e;
+}
+.float-right-box .top-list li:hover .ico1{
+  background: url(../img/ico_58_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover .ico2{
+  background: url(../img/ico_59_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover .ico3{
+  background: url(../img/ico_60_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover .ico4{
+  background: url(../img/ico_61_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover .ico5{
+  background: url(../img/ico_62_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover .ico6{
+  background: url(../img/ico_68_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover .ico7{
+  background: url(../img/ico_69_h.png) no-repeat center #f5f5f5;
+}
+.float-right-box .top-list li:hover{
+  background-color: #f5f5f5;
+}
+.float-right-box .top-list .return-webtop .stt{
+  font-family: "Arial";
+  font-weight: bold;
+}
+.float-right-box .bot-share{
+  position: relative;
+  height: 50px;
+}
+.float-right-box .bot-share a{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  transition: background 0.3s ease 0s;
+  margin: 0;
+  padding: 0;
+}
+.float-right-box .bot-share .share{
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.float-right-box .bot-share .sina{
+  background: url(../img/ico_63.png) no-repeat center;
+}
+.float-right-box .bot-share .wx{
+  background: url(../img/ico_64.png) no-repeat center;
+}
+.float-right-box .bot-share .tx{
+  background: url(../img/ico_65.png) no-repeat center;
+}
+.float-right-box .bot-share .more{
+  background: url(../img/ico_66.png) no-repeat center;
+}
+.float-right-box .bot-share a:hover{
+  background-color: #525354;
+}
+.float-right-box .bot-share .share-ico{
+  background: url(../img/ico_67.png) no-repeat center #191919;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+}

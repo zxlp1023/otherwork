@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="content-language" content="zh-CN"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="Keywords" content="O2O系统,O2O开发,O2O系统开发,杭州O2O系统开发,杭州O2O开发"/>
+  <meta name="Description" content=""/>
+  <meta name="author" content="杭州博采网络科技股份有限公司-http://www.bocweb.cn"/>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <title>O2O系统解决方案</title>
+  <script>
+      //      var STATIC_URL = "static/";
+      //      var GLOBAL_URL = "";
+      //      var UPLOAD_URL = "upload/";
+      //      var SITE_URL = "index.php";
+  </script>
+  <link rel="stylesheet" href="static/web/css/reset.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="static/web/css/public.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="static/web/css/style.css" type="text/css" media="screen" charset="utf-8">
+  <script src="static/js/jquery-1.11.3.js" type="text/javascript"   charset="utf-8"></script>
+  <script src="static/js/jquery.easing.1.3.js" type="text/javascript"   charset="utf-8"></script>
+  <script src="static/js/jquery.transit.js" type="text/javascript"   charset="utf-8"></script>
+  <script src="static/js/html5.js" type="text/javascript" charset="utf-8"></script>
+  <script src="static/js/bocfe.js" type="text/javascript" charset="utf-8"></script>
+  <script src="static/js/plug.preload.js" type="text/javascript"   charset="utf-8"></script>
+  <script src="static/web/js/share.js" type="text/javascript"   charset="utf-8"></script>
+  <link rel="stylesheet" href="static/web/css/inside.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="static/web/css/advantage.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+<div class="header">
+  <div class="w1280 f-cb">
+    <h1><a href="index.php " title=""><img src="static/web/img/logo2.png " width="204" height="60" alt=""></a></h1>
+    <div class="tel">028-86062810</div>
+  </div>
+</div>
+
+<div class="header header-fix">
+  <div class="w1280 f-cb">
+    <h1><a href="index.php " title=""><img
+            src="static/web/img/logo2.png " width="204" height="60" alt=""></a></h1>
+    <div class="nav">
+      <ul>
+        <li><a href="index.php" title="">首页<i></i></a></li>
+        <!-- <li>
+          <a href="javascript:;" title="">解决方案<i></i></a>
+          <div class="slide">
+            <div class="w1280 f-cb">
+            <dl>
+              <dd><a href="index.php/solution/o2o" title="">O2O</a></dd>
+              <dd><a href="index.php/solution/shopping" title="">商城搭建</a></dd>
+              <dd><a href="index.php/solution/hardware" title="">智能硬件</a></dd>
+              <dd><a href="index.php/solution/financial " title="">金融</a></dd>
+              <dd><a href="index.php/solution/medical" title="">智慧医疗</a></dd>
+              <dd><a href="index.php/solution/social" title="">社交</a></dd>
+              <dd><a href="index.php/solution/live" title="">直播</a></dd>
+              <dd><a href="index.php/solution/applet " title="">小程序</a></dd>
+            </dl>
+            </div>
+          </div>
+        </li>
+        <li><a target="_blank" href="http://www2.bocweb.cn/about.html" title="">关于我们<i></i></a></li>
+        <li><a target="_blank" href="http://www2.bocweb.cn/media.html" title="">媒体报道<i></i></a></li>
+        <li><a target="_blank" href="http://www2.bocweb.cn/cooperate.html" title="">投资合作<i></i></a></li> -->
+        <li><a href="index.php/solution/o2o" title="">O2O系统<i></i></a></li>
+        <li><a href="index.php/solution/shopping" title="">商城系统<i></i></a></li>
+        <li><a href="index.php/solution/financial " title="">互联网金融<i></i></a></li>
+        <li><a href="index.php/solution/applet " title="">小程序<i></i></a></li>
+        <li><a target="_blank" href="http://www.bocweb.cn/" title="">博采官网<i></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+    $(function () {
+        function header_fix() {
+            var old = 0;
+            var news = 0;
+            $(window).on('scroll', function () {
+                old = $(window).scrollTop();
+                var timer = setTimeout(function () {
+                    news = $(window).scrollTop();
+                }, 20)
+                if ($(window).scrollTop() <= 200) {
+                    $(".header-fix").removeClass('active');
+                } else {
+                    if (old - news > 0) {
+                        $(".header-fix").removeClass('active');
+                    }
+                    if (old - news < 0) {
+                        $(".header-fix").addClass('active');
+                    }
+                }
+                $('.header-fix').css('top', old)
+            })
+        }
+
+        header_fix()
+    })
+</script>
+<div class="i-ban box_skitter por ovh" id='getbannerid'>
+  <ul>
+    <li>
+      <a title="O2O系统解决方案">
+        <img src="upload/15076275849658wrwjn.jpg" alt="O2O系统解决方案">
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="inside-nav-box">
+  <div class="inside-nav">
+    <div class="w1280 f-cb">
+      <ul>
+        <li><a href="javascript:;" onclick="anchor(module1)" title="">业务介绍<i></i></a></li>
+        <li><a href="javascript:;" onclick="anchor(module2)" title="">适用行业<i></i></a></li>
+        <li><a href="javascript:;" onclick="anchor(module3)" title="">重点功能<i></i></a></li>
+        <li><a href="javascript:;" onclick="anchor(module4)" title="">案例展示<i></i></a></li>
+        <li class="bar">
+          <a href="javascript:;" title="">其他解决方案<span></span><i></i></a>
+          <div class="slide">
+            <dl>
+              <dd><a href="index.php/solution/o2o" title="">O2O系统</a></dd>
+              <dd><a href="index.php/solution/shopping" title="">商城系统</a></dd>
+              <!-- <dd><a href="index.php/solution/hardware" title="">智能硬件</a></dd> -->
+              <dd><a href="index.php/solution/financial " title="">互联网金融</a></dd>
+              <!-- <dd><a href="index.php/solution/medical" title="">智慧医疗</a></dd> -->
+              <!-- <dd><a href="index.php/solution/social" title="">社交</a></dd> -->
+              <!-- <dd><a href="index.php/solution/live" title="">直播</a></dd> -->
+              <dd><a href="index.php/solution/applet " title="">小程序</a></dd>
+            </dl>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="i-warp about-module" id="module1">
+  <div class="title">
+    <h2><img src="static/web/img/o2o_t1.png" height="36" alt=""></h2>
+    <!-- <p>采用前后端分离开发模式，确保用户资金安全</p> -->
+  </div>
+  <div class="content f-cb w1280">
+    <ul>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_img1.png" width="160" height="160" alt="">
+        </div>
+        <div class="text">
+          <h3>更优质的服务体验</h3>
+          <p>通过O2O选择更优质的服务体验，即可享受优惠价格，又可体验线下优质服务</p>
+        </div>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_img2.png" width="160" height="160" alt="">
+        </div>
+        <div class="text">
+          <h3>网上和门店一体化营销</h3>
+          <p>借助O2O，帮助传统连锁企业打通线上线下，实现网上和门店一体化营销</p>
+        </div>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_img3.png" width="160" height="160" alt="">
+        </div>
+        <div class="text">
+          <h3>线上线下消费结合</h3>
+          <p>平台通过O2O将线上订单和线下消费结合，所有的消费行为均可以准确统计，掌握用户数据</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="i-warp type-module" id="module2">
+  <div class="title">
+    <h2><img src="static/web/img/live_t2.png" height="36" alt=""></h2>
+    <p>O2O系统覆盖多个行业，支持个性化定制需求</p>
+  </div>
+  <div class="content w1280">
+    <ul>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon1.png " width="80" height="80" alt="">
+        </div>
+        <p>餐饮美食</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon2.png " width="80" height="80" alt="">
+        </div>
+        <p>电影买票</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon3.png " width="80" height="80" alt="">
+        </div>
+        <p>美容美发</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon4.png " width="80" height="80" alt="">
+        </div>
+        <p>旅游</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon5.png " width="80" height="80" alt="">
+        </div>
+        <p>酒店</p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon6.png " width="80" height="80" alt="">
+        </div>
+        <p>健身</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon7.png " width="80" height="80" alt="">
+        </div>
+        <p>租车出行</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon8.png " width="80" height="80" alt="">
+        </div>
+        <p>租房</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon9.png " width="80" height="80" alt="">
+        </div>
+        <p>社区服务</p>
+      </li>
+      <li>
+        <div class="img">
+          <img src="static/web/img/o2o_icon10.png " width="80" height="80" alt="">
+        </div>
+        <p>学习培训</p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="i-warp scene-module" id="module3">
+  <div class="title">
+    <h2><img src="static/web/img/o2o_t3.png" height="36" alt=""></h2>
+    <p>不同端口的重点功能</p>
+  </div>
+  <div class="link">
+    <ul>
+      <li><a href="javascript:;" data-id="1" title="">用户<i></i></a></li>
+      <li><a href="javascript:;" data-id="2" title="">商家<i></i></a></li>
+      <li><a href="javascript:;" data-id="3" title="">平台运营公司<i></i></a></li>
+    </ul>
+  </div>
+
+  <div class="content-box w1280 f-cb">
+    <div class="bg">
+      <img src="static/web/img/scene_bg.jpg" width="100%" alt="">
+    </div>
+    <div class="content end">
+      <div class="left fl box" style="width: 43.5%; opacity: 1; left: 0px;">
+        <img src="static/web/img/o2o_pic1_1.jpg" width="100%" alt="">
+      </div>
+      <div class="right fr box" style="opacity: 1; left: 0px;">
+        <img class="fr" src="static/web/img/o2o_pic1_2.jpg" width="100%" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="i-warp case-module" id="module4">
+  <div class="title">
+    <h2><img src="static/web/img/live_t4.png" height="36" alt=""></h2>
+    <p>最新最全的案例展示</p>
+  </div>
+  <div class="content w1280">
+    <ul class="por f-cb" id="container">
+      <li>
+        <a class="box" href="http://www2.bocweb.cn/webpro-0-904.html" target="_blank" title="自由人">
+          <div class="text">
+            <div class="tit">自由人</div>
+            <p>线上线下一体的社交类型平台</p>
+            <div class="line"></div>
+          </div>
+          <div class="img">
+            <img class="lazy" src="http://www2.bocweb.cn/upload/201710/3099308dc350012062fae8a446434cf5.jpg"
+                 data-original="http://www2.bocweb.cn/upload/201710/3099308dc350012062fae8a446434cf5.jpg" width="364"
+                 alt="自由人">
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="box" href="http://www2.bocweb.cn/webpro-0-882.html" target="_blank" title="弘原乐土">
+          <div class="text">
+            <div class="tit">弘原乐土</div>
+            <p>专营天然、有机、全食物的 O2O 平台</p>
+            <div class="line"></div>
+          </div>
+          <div class="img">
+            <img class="lazy" src="http://www2.bocweb.cn/upload/201709/af57fa0b3d3abd6616f6df496b70bab0.jpg"
+                 data-original="http://www2.bocweb.cn/upload/201709/af57fa0b3d3abd6616f6df496b70bab0.jpg" width="364"
+                 alt="弘原乐土">
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="box" href="http://www2.bocweb.cn/webpro-0-880.html" target="_blank" title="常合防水－渥爱">
+          <div class="text">
+            <div class="tit">常合防水－渥爱</div>
+            <p>预约家庭漏水维修员平台</p>
+            <div class="line"></div>
+          </div>
+          <div class="img">
+            <img class="lazy" src="http://www2.bocweb.cn/upload/201709/8ca49a79db02b23c70e6acc0d98566f9.jpg"
+                 data-original="http://www2.bocweb.cn/upload/201709/8ca49a79db02b23c70e6acc0d98566f9.jpg" width="364"
+                 alt="常合防水－渥爱">
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="box" href="http://www2.bocweb.cn/webpro-0-877.html" target="_blank" title="就试试衣间">
+          <div class="text">
+            <div class="tit">就试试衣间</div>
+            <p>抓住女性爱美、消费、拍照等心理而开发等一款app</p>
+            <div class="line"></div>
+          </div>
+          <div class="img">
+            <img class="lazy" src="http://www2.bocweb.cn/upload/201709/cf8cab54cd5b2c196eba4a6c7e828384.jpg"
+                 data-original="http://www2.bocweb.cn/upload/201709/cf8cab54cd5b2c196eba4a6c7e828384.jpg" width="364"
+                 alt="就试试衣间">
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <a href="http://www2.bocweb.cn/work-0-0-1-2.html" title="" class="i-btn"><span>了解更多</span></a>
+</div>
+<div class="i-advantage i-warp">
+  <div class="title">
+    <h2><img src="static/web/img/i_title1.png" height="36" alt=""></h2>
+  </div>
+  <div class="content f-cb w1280">
+    <div class="top-box">
+      <div class="text">
+        <p>博采网络秉承实现全网价值营销的理念，以数据为核心，结合营销、内容、创意、技术、研发等多维度.</p>
+      </div>
+      <div class="num">
+        <table>
+          <tr>
+            <td class="td-first">
+              <h4><span id="num1" data-num="13"></span>+</h4>
+              <p>年技术沉淀</p>
+              <div class="line"></div>
+            </td>
+            <td>
+              <h4><span id="num2" data-num="500"></span>+</h4>
+              <p>款创新产品</p>
+              <div class="line"></div>
+            </td>
+            <td>
+              <h4><span id="num3" data-num="6000"></span>+</h4>
+              <p>次商业合作</p>
+              <div class="line"></div>
+            </td>
+            <td class="td-last">
+              <h4><span id="num4" data-num="500"></span>+</h4>
+              <p>专业团队</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="bot-box f-cb">
+      <ul>
+        <li>
+          <div class="box">
+            <img src="static/web/img/x_logo1.png" width="170" height="70" alt=""
+                 class="gay">
+            <img src="static/web/img/x_logo1_1.png" width="170" height="70" alt=""
+                 class="color">
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <img src="static/web/img/x_logo2.png" width="170" height="70" alt=""
+                 class="gay">
+            <img src="static/web/img/x_logo2_1.png" width="170" height="70" alt=""
+                 class="color">
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <img src="static/web/img/x_logo3.png" width="170" height="70" alt=""
+                 class="gay">
+            <img src="static/web/img/x_logo3_1.png" width="170" height="70" alt=""
+                 class="color">
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <img src="static/web/img/x_logo4.png" width="170" height="70" alt=""
+                 class="gay">
+            <img src="static/web/img/x_logo4_1.png" width="170" height="70" alt=""
+                 class="color">
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <img src="static/web/img/x_logo5.png" width="170" height="70" alt=""
+                 class="gay">
+            <img src="static/web/img/x_logo5_1.png" width="170" height="70" alt=""
+                 class="color">
+          </div>
+        </li>
+        <li>
+          <div class="box">
+            <img src="static/web/img/x_logo6.png" width="170" height="70" alt=""
+                 class="gay">
+            <img src="static/web/img/x_logo6_1.png" width="170" height="70" alt=""
+                 class="color">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="link">
+    <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODAyNTk2Nl8yOTI4MzhfNDAwODAwNTc5MF8yXw" target="_blank"
+       title="" class="btn i-btn"><span>了解更多</span></a>
+  </div>
+</div>
+<script>
+    $(function () {
+        var numFlag = true;
+        $(window).scroll(function () {
+            var t = $(window).scrollTop();
+            var T = $('.i-advantage').offset().top;
+            var H = $(window).height() / 2;
+            // 数字跳动
+            if (t + H >= T && numFlag == true) {
+                numFlag = false;
+                var demoFi1 = new CountUp("num1", 0, $("#num1").data("num"), 0, 1);
+                demoFi1.start();
+                var demoFi2 = new CountUp("num2", 0, $("#num2").data("num"), 0, 1);
+                demoFi2.start();
+                var demoFi3 = new CountUp("num3", 0, $("#num3").data("num"), 0, 1);
+                demoFi3.start();
+                var demoFi4 = new CountUp("num4", 0, $("#num4").data("num"), 0, 1);
+                demoFi4.start();
+            }
+        })
+    })
+</script>
+<footer>
+  <div class="w1280">
+    <div class="footer-top f-cb">
+      <div class="link">
+        <p>
+          <a target="_blank" href="http://www2.bocweb.cn/contact.html" title="">联系我们</a><span>|</span>
+          <a target="_blank" href="http://www2.bocweb.cn/payment.html" title="">付款方式</a><span>|</span>
+          <a target="_blank" href="http://www2.bocweb.cn/contact.html" title="">客户留言</a><span>|</span>
+          <a target="_blank" href="http://www2.bocweb.cn/hr.html" title="">人才招聘</a><span>|</span>
+          <a target="_blank" href="http://www.ssc-vr.com/" title="">vr开发</a>
+        </p>
+      </div>
+      <div class="phone">招聘：0571-87651828</div>
+    </div>
+    <div class="footer-bot f-cb">
+      <p class="fl">©2016 博采网络 All rights reserved. </p>
+      <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+      document.write(unescape("%3Cspan id='cnzz_stat_icon_1264763863'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1264763863%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+      <p class="fr">
+        <a target="_blank" title="技术支持" href="http://www.bocweb.cn/" class="t-c">BY</a>:
+        <a target="_blank" title="网站建设" href="http://www.bocweb.cn/" class="t-c">BOCWEB</a>
+      </p>
+    </div>
+  </div>
+</footer>
+<div class="float-right-box on">
+  <div class="top-list">
+    <ul>
+      <li>
+        <a class="f-cb" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODAyNTk2Nl8yOTI4MzhfNDAwODAwNTc5MF8yXw"
+           target="_blank">
+          <span class="fl stt">业务咨询</span>
+          <span class="ico ico2"></span>
+        </a>
+      </li>
+      <li>
+        <a class="f-cb" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzkzODAyNTk2Nl8yOTI4MzhfNDAwODAwNTc5MF8yXw"
+           target="_blank">
+          <span class="fl stt">售后服务</span>
+          <span class="ico ico3"></span>
+        </a>
+      </li>
+      <!-- <li>
+        <a class="f-cb" href="http://www2.bocweb.cn/" target="_blank">
+          <span class="fl stt">老网站入口</span>
+          <span class="ico ico6"></span>
+        </a>
+      </li> -->
+      <li>
+        <a class="f-cb">
+          <span class="fl stt">400-800-5790</span>
+          <span class="ico ico7"></span>
+        </a>
+      </li>
+      <li>
+        <a class="f-cb return-webtop" href="javascript:;">
+          <span class="fl stt">TOP</span>
+          <span class="ico ico5"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="bot-share f-cb">
+    <div class="fl share bdsharebuttonbox">
+      <a class="sina" data-cmd="tsina" href="javascript:;" title=" "></a>
+      <a class="wx" data-cmd="weixin" href="javascript:;" title=" "></a>
+      <a class="tx" data-cmd="tqq" href="javascript:;" title=" "></a>
+      <a class="more" data-cmd="more" href="javascript:;" title=" "></a>
+    </div>
+    <span class="fr share-ico"></span>
+  </div>
+</div>
+<script>
+    $(function () {
+        $(".return-webtop").on('click', function () {
+            $("body,html").stop().animate({scrollTop: 0}, 500);
+        });
+    })
+</script>
+<script src="static/web/js/rightSide.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="static/web/css/rightSide.css" type="text/css" media="screen" charset="utf-8">
+<script src="static/web/js/main.js" type="text/javascript" charset="utf-8"></script>
+<script src="static/web/js/inside.js" type="text/javascript" charset="utf-8"></script>
+<script src="static/web/skitter/jquery.skitter.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="static/web/skitter/skitter.styles.css" type="text/css" media="screen" charset="utf-8">
+<script src="static/web/js/countup.js" type="text/javascript" charset="utf-8"></script>
+<script src="static/web/js/lazyload.js" type="text/javascript" charset="utf-8"></script>
+<script src="static/web/js/waterfall.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    $(function () {
+        // banner
+        $('.box_skitter').skitter({
+            animation: 'cubeHide',
+            interval: 3500,
+            navigation: false,
+            numbers_align: 'center'
+        });
+
+        // 样式
+        $('.about-module .content li:last').css('marginRight', 0)
+
+        //瀑布流
+        $("#container img.lazy").lazyload({
+            load: function () {
+                waterFall('container', 20, 'li')
+            }
+        });
+        $(window).resize(function () {
+            waterFall('container', 20, 'li')
+        });
+
+        // 应用场景
+        sceneShow();
+        $(window).scroll(function () {
+            sceneShow();
+        })
+        $(".scene-module .link a").click(function (e) {
+            e.preventDefault();
+            $(this).addClass("cur").parent('li').siblings().find('a').removeClass("cur");
+            var _url = "index.php/o2o_ajax/scene";
+            var _id = $(this).attr('data-id');
+            var html = $.ajax({
+                url: _url + _id
+            }).done(function (json) {
+                if ($(".scene-module .content .box").length > 0) {
+                    $(".scene-module .content .box").stop().animate({opacity: 0, top: '50px'}, 600, function () {
+                        $(".scene-module .content").html(json);
+                        $(".scene-module .content .box").stop().animate({opacity: 1, left: 0}, 600)
+                    })
+                } else {
+                    $(".scene-module .content").html(json)
+                }
+            })
+        })
+        $(".scene-module .link a").eq(0).click();
+
+        function sceneShow() {
+            var t = $(window).scrollTop();
+            var H = $(window).height() / 2;
+            if (t > $(".scene-module .content").offset().top - H && !$(".scene-module .content").hasClass('end')) {
+                if ($(".scene-module .content .box").length > 0) {
+                    $(".scene-module .content").addClass("end");
+                    $(".scene-module .content .box").stop().animate({opacity: 1, left: 0})
+                }
+            }
+        }
+
+
+    })
+</script>
+</body>
+</html>

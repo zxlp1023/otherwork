@@ -1,0 +1,113 @@
+.i-advantage .link a{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.i-advantage {
+  background: #ffffff;
+  padding: 100px 0 120px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.i-advantage .content {
+  margin: 50px auto 0;
+}
+.i-advantage .top-box {
+  width: 840px;
+  margin: 0 auto 0;
+}
+.i-advantage .text {
+  font-size: 16px;
+  color: #666666;
+  line-height: 26px;
+  text-align: center;
+}
+.i-advantage .num {
+  margin: 50px auto 0;
+  width: 680px;
+}
+.i-advantage .num table {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.i-advantage .num td {
+  padding: 0 28px;
+  text-align: center;
+  position: relative;
+}
+.i-advantage .num .td-first {
+  padding-left: 0;
+}
+.i-advantage .num .td-last {
+  padding-right: 0;
+}
+.i-advantage .num h4 {
+  font-size: 74px;
+  color: #333333;
+  font-family: "Trump";
+  line-height: 1;
+}
+.i-advantage .num p {
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.i-advantage .num .line {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 88px;
+  background: #eaeaea;
+  margin-top: -44px;
+}
+.i-advantage .bot-box {
+  margin: 65px 0 0;
+  overflow: hidden;
+}
+.i-advantage .bot-box ul {
+  float: left;
+  width: 100.1%;
+}
+.i-advantage .bot-box li {
+  float: left;
+  width: 16.6%;
+}
+.i-advantage .bot-box .box {
+  margin: 0 auto 0;
+  width: 170px;
+  height: 70px;
+  position: relative;
+}
+.i-advantage .bot-box .box .gay {
+  display: block;
+}
+.i-advantage .bot-box .box .color {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.i-advantage .bot-box .box:hover .color {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.i-advantage .link {
+  margin-top: 75px;
+  font-size: 0;
+  text-align: center;
+}
+.i-advantage .link a {
+  margin: 0 20px;
+  width: 198px;
+  height: 58px;
+  line-height: 58px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: 1px solid #e5e5e5;
+}
