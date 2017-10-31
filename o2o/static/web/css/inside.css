@@ -134,7 +134,9 @@
 }
 .inside-nav .bar:hover .slide {
   /*height: 358px;*/
-  height: 190px;
+  /*height: 190px;*/
+  height: 148px;
+  /*border-bottom: 1px solid #eee;*/
 }
 .inside-nav .bar:hover .slide.four {
   height: 190px;
